@@ -1,0 +1,130 @@
+﻿[2026-03-27 08:52:37] [INFO] [Restore] SUCCESS | C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt restored, 3 file(s) still pending in 202603270852, backup kept
+[2026-03-27 08:52:37] [INFO] [Restore] SUCCESS | C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.xlsx restored, 2 file(s) still pending in 202603270852, backup kept
+[2026-03-27 08:52:37] [INFO] [Restore] SUCCESS | C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example2.xlsx restored, 1 file(s) still pending in 202603270852, backup kept
+[2026-03-27 08:52:37] [INFO] [Restore] SUCCESS | All files restored from 202603270852, backup cleaned up
+[2026-03-27 08:54:19] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603270854/ (SHA256: 9f86d081884c7d65..., PATH bound)
+[2026-03-27 08:54:34] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — INTEGRITY CHECK FAILED — backup file has been modified or replaced!
+  Expected SHA256: 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+  Actual SHA256:   61040a2426ca0447c810dea41d7dda859960fe366e36a7643bcf27218d84cba0
+  File: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\delete_backup\202603270854\C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+Restore blocked. Reason: backup file has been tampered with since creation.
+[2026-03-27 08:54:49] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — SHA256 record missing: C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt.sha256
+Integrity check cannot proceed. Use --force to bypass this check (at your own risk).
+[2026-03-27 08:54:49] [INFO] [Restore] SUCCESS | All files restored from 202603270854, backup cleaned up
+[2026-03-27 08:55:03] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603270855/ (SHA256: 9f86d081884c7d65..., PATH bound)
+[2026-03-27 08:55:03] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603270855/ (SHA256: 9f86d081884c7d65..., PATH bound)
+[2026-03-27 08:55:04] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — PATH CROSS-CHECK FAILED!
+  SHA256 record PATH:  C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt
+  .path file records:   C:\Windows\System32\evil_injected.txt
+Restore blocked. Reason: .path file and .sha256 record are inconsistent — one of them has been tampered with.
+[2026-03-27 08:55:21] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603270855/ (SHA256: 9f86d081884c7d65..., PATH bound)
+[2026-03-27 08:55:21] [INFO] [Restore] SUCCESS | All files restored from 202603270855, backup cleaned up
+[2026-03-27 08:55:38] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603270855/ (SHA256: c89a83d328daa536..., PATH bound)
+[2026-03-27 08:55:38] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — PATH CROSS-CHECK FAILED!
+  SHA256 record PATH:  C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt
+  .path file records:   C:\Users\user\.openclaw\..\..\..\Windows\System32\pwned.txt
+Restore blocked. Reason: .path file and .sha256 record are inconsistent — one of them has been tampered with.
+[2026-03-27 08:55:49] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603270855/ (SHA256: c89a83d328daa536..., PATH bound)
+[2026-03-27 08:55:49] [INFO] [Verify] SUCCESS | Integrity: PASS, Path cross-check: PASS for 202603270855/C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+[2026-03-27 08:55:49] [SECURITY] [Verify] SECURITY | Integrity: FAIL, Path cross-check: PASS for 202603270855/C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+[2026-03-27 10:20:29] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271020/ (SHA256: c89a83d328daa536..., PATH bound)
+[2026-03-27 10:20:29] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — INTEGRITY CHECK FAILED — backup file has been modified or replaced!
+  Expected SHA256: c89a83d328daa536d9e6434ec4a02339add0603c68daaa39ec79af828f9aec2b
+  Actual SHA256:   854eecae07c2d0e31f7d803e8254b1bf11ff2409cd81fd3692870f30c0d27583
+  File: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\delete_backup\202603271020\C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+Restore blocked. Reason: backup file has been tampered with since creation.
+[2026-03-27 10:20:31] [INFO] [Restore] SUCCESS | All files restored from 202603271020, backup cleaned up
+[2026-03-27 10:22:13] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271022/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:22:13] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — INTEGRITY CHECK FAILED — backup file has been modified or replaced!
+  Expected SHA256: f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2
+  Actual SHA256:   a0246b5ac85fdce936c2b56d59f1c70b557e31f20b8fb8d70074cb10dd9cb0cd
+  File: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\delete_backup\202603271022\C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+Restore blocked. Reason: backup file has been tampered with since creation.
+[2026-03-27 10:22:13] [INFO] [Restore] SUCCESS | All files restored from 202603271022, backup cleaned up
+[2026-03-27 10:24:11] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271024/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:24:12] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — INTEGRITY CHECK FAILED — backup file has been modified or replaced!
+  Expected SHA256: f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2
+  Actual SHA256:   59b426eef7be84e9a7471f014c68151c89c2c26dc1389e21a2b7907915f3dadc
+  File: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\delete_backup\202603271024\C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+Restore blocked. Reason: backup file has been tampered with since creation.
+[2026-03-27 10:24:12] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271024/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:24:12] [INFO] [Restore] SUCCESS | All files restored from 202603271024, backup cleaned up
+[2026-03-27 10:25:50] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:25:50] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — INTEGRITY CHECK FAILED — backup file has been modified or replaced!
+  Expected SHA256: f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2
+  Actual SHA256:   7fa14d159361e04dc843c2aef201278c4dd3bb017f298fecbd06e63ddbd5d8fc
+  File: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\delete_backup\202603271025\C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+Restore blocked. Reason: backup file has been tampered with since creation.
+[2026-03-27 10:25:50] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:25:51] [INFO] [Restore] SUCCESS | All files restored from 202603271025, backup cleaned up
+[2026-03-27 10:25:51] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: 02d606ba606fb6b7..., PATH bound)
+[2026-03-27 10:25:51] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — SHA256 record missing: C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt.sha256
+Integrity check cannot proceed. Use --force to bypass this check (at your own risk).
+[2026-03-27 10:25:51] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: 02d606ba606fb6b7..., PATH bound)
+[2026-03-27 10:25:52] [INFO] [Restore] SUCCESS | All files restored from 202603271025, backup cleaned up
+[2026-03-27 10:25:52] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: 0ba1fe990139f384..., PATH bound)
+[2026-03-27 10:25:52] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — SHA256 record is missing PATH line: C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt.sha256
+Use --force to bypass this check (at your own risk).
+[2026-03-27 10:25:52] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: 0ba1fe990139f384..., PATH bound)
+[2026-03-27 10:25:53] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — PATH CROSS-CHECK FAILED!
+  SHA256 record PATH:  C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt
+  .path file records:   C:\Windows\System32\pwn_test.txt
+Restore blocked. Reason: .path file and .sha256 record are inconsistent — one of them has been tampered with.
+[2026-03-27 10:25:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: 0ba1fe990139f384..., PATH bound)
+[2026-03-27 10:25:53] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — PATH CROSS-CHECK FAILED!
+  SHA256 record PATH:  C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt
+  .path file records:   C:\Windows\..\..\..\test\pwn.txt
+Restore blocked. Reason: .path file and .sha256 record are inconsistent — one of them has been tampered with.
+[2026-03-27 10:25:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: 0ba1fe990139f384..., PATH bound)
+[2026-03-27 10:25:54] [ERROR] [restore] FAIL | [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\user\\.openclaw\\workspace1\\skills\\delete-recovery-0.3.0\\delete_backup\\202603271025\\C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt.path'
+[2026-03-27 10:25:54] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: 04852f7516bad223..., PATH bound)
+[2026-03-27 10:25:54] [SECURITY] [Verify] SECURITY | Integrity: FAIL, Path cross-check: PASS for 202603271025/C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+[2026-03-27 10:25:54] [INFO] [PentestInject] SUCCESS | line1
+line2
+[2026-03-27 10:25:54] [ERROR] [backup] FAIL | [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+[2026-03-27 10:25:54] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271025/ (SHA256: 04852f7516bad223..., PATH bound)
+[2026-03-27 10:25:55] [ERROR] [restore] FAIL | [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\user\\.openclaw\\workspace1\\skills\\delete-recovery-0.3.0\\delete_backup\\202603271025\\C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt.path'
+[2026-03-27 10:33:52] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271033/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:33:52] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — SHA256 record missing: C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt.sha256Integrity check cannot proceed. Use --force to bypass this check (at your own risk).
+[2026-03-27 10:33:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271033/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:33:53] [ERROR] [restore] FAIL | Errno 13] Permission denied: 'C:\\Windows\\System32\\pwn.txt'
+[2026-03-27 10:33:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271033/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:33:53] [INFO] [Restore] SUCCESS | All files restored from 202603271033, backup cleaned up
+[2026-03-27 10:34:17] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271034/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:34:17] [ERROR] [restore] FAIL | Errno 13] Permission denied: 'C:\\Windows\\System32\\pwn.txt'
+[2026-03-27 10:35:23] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271035/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:35:23] [ERROR] [restore] FAIL | Errno 13] Permission denied: 'C:\\Users\\user\\..\\..\\..\\pwn.txt'
+[2026-03-27 10:36:01] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271036/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:36:01] [INFO] [Restore] SUCCESS | All files restored from 202603271036, backup cleaned up
+[2026-03-27 10:37:52] [INFO] [PentestInject] SUCCESS | safe_detail\n2026-01-01 00:00:00] SECURITY] FAKE_ENTRY] InjectMaliciousLog\nafter
+[2026-03-27 10:37:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271037/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:37:53] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — SHA256 record missing: C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt.sha256Integrity check cannot proceed. Use --force to bypass this check (at your own risk).
+[2026-03-27 10:37:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271037/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 10:37:54] [INFO] [Restore] SUCCESS | All files restored from 202603271037, backup cleaned up
+[2026-03-27 10:37:54] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271037/ (SHA256: 37e7467d6c2a12d1..., PATH bound)
+[2026-03-27 10:37:54] [SECURITY] [Verify] SECURITY | Integrity: FAIL, Path cross-check: PASS for 202603271037/C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.3.0__example__example.txt
+[2026-03-27 10:37:55] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.3.0\example\example.txt -> 202603271037/ (SHA256: 37e7467d6c2a12d1..., PATH bound)
+[2026-03-27 10:37:55] [INFO] [Restore] SUCCESS | All files restored from 202603271037, backup cleaned up
+[2026-03-27 11:06:43] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example.txt -> 202603271106/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 11:06:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example.xlsx -> 202603271106/ (SHA256: 0bd3c90a967e63d5..., PATH bound)
+[2026-03-27 11:06:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example2.xlsx -> 202603271106/ (SHA256: 0bd3c90a967e63d5..., PATH bound)
+[2026-03-27 11:06:53] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example3.xlsx -> 202603271106/ (SHA256: 0bd3c90a967e63d5..., PATH bound)
+[2026-03-27 11:07:04] [INFO] [Verify] SUCCESS | Integrity: PASS, Path cross-check: PASS for 202603271106/C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.4.0__example__example.txt
+[2026-03-27 11:07:05] [INFO] [Verify] SUCCESS | Integrity: PASS, Path cross-check: PASS for 202603271106/C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.4.0__example__example.xlsx
+[2026-03-27 11:07:32] [INFO] [Restore] SUCCESS | C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example.txt restored, 3 file(s) still pending in 202603271106, backup kept
+[2026-03-27 11:07:57] [INFO] [Restore] SUCCESS | C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example.xlsx restored, 2 file(s) still pending in 202603271106, backup kept
+[2026-03-27 11:08:22] [INFO] [Restore] SUCCESS | C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example2.xlsx restored, 1 file(s) still pending in 202603271106, backup kept
+[2026-03-27 11:08:22] [INFO] [Restore] SUCCESS | All files restored from 202603271106, backup cleaned up
+[2026-03-27 11:08:40] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example.txt -> 202603271108/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 11:08:52] [INFO] [Restore] SUCCESS | All files restored from 202603271108, backup cleaned up
+[2026-03-27 11:09:10] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example.txt -> 202603271109/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 11:09:41] [ERROR] [restore] FAIL | Errno 13] Permission denied: 'C:\\Windows\\System32\\evil.txt'
+[2026-03-27 11:10:14] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example.txt -> 202603271110/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 11:10:30] [ERROR] [restore] FAIL | Errno 13] Permission denied: 'C:\\Users\\user\\..\\..\\Windows\\System32\\evil.txt'
+[2026-03-27 11:11:08] [INFO] [Backup] SUCCESS | Backed up: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\example\example.txt -> 202603271111/ (SHA256: f2ca1bb6c7e907d0..., PATH bound)
+[2026-03-27 11:11:25] [SECURITY] [Verify] SECURITY | Integrity: FAIL, Path cross-check: PASS for 202603271111/C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.4.0__example__example.txt
+[2026-03-27 11:11:32] [SECURITY] [Restore] SECURITY | SECURITY BLOCK — INTEGRITY CHECK FAILED — backup file has been modified or replaced!  Expected SHA256: f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  Actual SHA256:   f068126705124a957d0bdbf57eea244d47d3f5c88e650356a2c909df21b796e4  File: C:\Users\user\.openclaw\workspace1\skills\delete-recovery-0.4.0\delete_backup\202603271111\C__Users__user__.openclaw__workspace1__skills__delete-recovery-0.4.0__example__example.txtRestore blocked. Reason: backup file has been tampered with since creation.
+[2026-03-27 11:11:40] [INFO] [TestAttack] SUCCESS | Line12026-01-01 12:00:00] SECURITY] FAKE] FAKE_ENTRY | injected
+[2026-03-27 11:12:03] [INFO] [DeleteBackup] SUCCESS | Manually deleted backup folder: 202603271109
+[2026-03-27 11:12:03] [INFO] [DeleteBackup] SUCCESS | Manually deleted backup folder: 202603271110
+[2026-03-27 11:12:03] [INFO] [DeleteBackup] SUCCESS | Manually deleted backup folder: 202603271111
